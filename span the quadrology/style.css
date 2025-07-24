@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: comic sans ms;
+  }
+  
+  table {
+    border: solid black 1px;
+    
+    
+  }
+  
+  td {
+    border: solid rgb(0, 0, 0) 2px;
+    
+    
+    text-align: center;
+  }
+  
+  .white {
+    background-color: white;
+    color: white;
+  }

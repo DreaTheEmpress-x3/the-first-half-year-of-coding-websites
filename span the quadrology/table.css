@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: comic sans ms;
+}
+
+table {
+  border: solid black 1px;
+  border-collapse: collapse;
+  height: 1000px;
+  width: 100%;
+}
+
+td {
+  border: solid rgb(255, 255, 255) 0;
+  background-color: hotpink;
+  color: hotpink;
+  width: 110px;
+  height: 10px;
+}
+
+.white {
+  background-color: white;
+  color: white;
+}

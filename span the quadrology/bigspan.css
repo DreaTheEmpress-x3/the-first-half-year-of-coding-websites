@@ -1,0 +1,15 @@
+body{
+    font-family: comic sans ms;
+}
+
+table{
+    width: 1200px;
+    height: 600px;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+td{
+    border: solid hotpink 1px;
+    text-align: center;
+}
