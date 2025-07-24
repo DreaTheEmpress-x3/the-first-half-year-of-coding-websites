@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hotpink;
+    font-family: comic sans ms;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 950px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main{
+    width: 960px;
+    min-height: 800px;
+    background-color: aqua;
+    margin: 10px auto;
+}
+
+section{
+    width: 200px;
+    min-height: 800px;
+    background-color: purple;
+    margin: 10px 0;
+    float: left;
+}
+
+article{
+    width: 540px;
+    min-height: 800px;
+    background-color: black;
+    margin: 10px;
+    float: left;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3, p{
+    padding: 0 10px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/*classes*/
+/*____________________________
+______________________________*/
+.clearboth{
+    clear: both;
+}
+
+.imagine, .iknow, .yodawg{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 421px) {
+    h1{
+        font-size: 15px;
+    }
+
+    header{
+        width: 100%;
+        height: 80px;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+        float: none;
+        min-height: 100px;
+    }
+
+    article{
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+        min-height: 50px;
+    }
+
+    .grum, p, h3{
+        display: none;
+    }
+
+    .yodawg {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    h1{
+        font-size: 12px;
+    }
+
+    header{
+        width: 100%;
+        height: 65px;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    section{
+      width: 100%;
+      float: none;
+      min-height: 100px;
+    }
+
+    article{
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+        min-height: 40px;
+    }
+
+    .grum, p, h3{
+        display: none;
+    }
+
+    .iknow, .imagine, .yodawg{
+        display: block;
+    }
+}
+
+.grey{
+    background-color: grey;
+}
+
+.white{
+    color: white;
+}
