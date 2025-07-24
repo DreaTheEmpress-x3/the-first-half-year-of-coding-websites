@@ -1,0 +1,274 @@
+body {
+  font-family: comic sans ms;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url(img/spider-man-across-the-spider-verse-cliffhanger.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  height: 100px;
+  width: 1800px;
+  text-align: center;
+  background-color: rgba(137, 43, 226, 0.418);
+  margin: 0 auto;
+  font-size: 3em;
+  border-radius: 20px;
+}
+
+.container {
+  width: 1800px;
+  min-height: 4060px;
+  background-color: rgba(137, 43, 226, 0.418);
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+img {
+  width: 415px;
+  height: 400px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.clearright {
+  clear: right;
+}
+
+.clearleft {
+  clear: left;
+}
+
+@keyframes rainbow-flash {
+  0% {
+    color: red;
+  }
+  16% {
+    color: orange;
+  }
+  32% {
+    color: yellow;
+  }
+  48% {
+    color: green;
+  }
+  64% {
+    color: blue;
+  }
+  80% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.rainbow-text {
+  font-weight: bold;
+  animation: rainbow-flash 1.5s infinite;
+}
+
+section {
+  width: 415px;
+  height: 400px;
+  background-color: rgba(33, 53, 233, 0.384);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 15px;
+  color: azure;
+  border-radius: 20px;
+}
+
+.broad {
+  width: 865px;
+  height: 400px;
+  background-color: rgba(33, 53, 233, 0.384);
+  margin-left: 20px;
+  margin-right: 15px;
+  color: azure;
+}
+
+.spider6 {
+  width: 445px;
+  height: 360px;
+}
+
+.thumbnail {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  height: 80rem;
+  width: auto;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.3);
+}
+
+.coolspider {
+  height: 850px;
+  width: 1200px;
+}
+
+.tall {
+  width: 515px;
+  height: 2150px;
+}
+
+.multimg {
+  margin-left: 58px;
+}
+
+.bigger {
+  width: 1215px;
+  height: 1280px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.distance {
+  margin-right: 60px;
+  width: 460px;
+}
+
+.distance2 {
+  margin-right: 60px;
+  width: 570px;
+}
+
+.facts {
+  width: 525px;
+  height: 940px;
+}
+
+.smallimg {
+  margin-left: 50px;
+}
+
+.lastimg {
+  width: 1150px;
+  height: 520px;
+}
+
+.decentimg {
+  height: 470px;
+  width: 540px;
+}
+
+.column{
+  column-count: 2;
+  column-gap: 30px;
+}
+
+nav{
+  width: 100%;
+  height: 55px;
+  background-color: rgba(88, 144, 207, 0.5);
+  margin: 0px;
+  border-radius: 20px;
+  border: inset hotpink 1px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin-left: 390px;
+  transform: translateY(-13px);
+}
+
+nav li{
+  float: left;
+  margin-right: 60px;
+  margin-top: 0;
+  transition: transform 0.3s ease;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  background-color: rgb(141, 106, 236);
+  padding: 10px 50px;
+  border-radius: 15px;
+  border: inset aqua 2px;
+}
+
+a{
+color: limegreen;
+}
+
+a:hover{
+  color: rgb(0, 255, 98);
+  transform: scale(1.25);
+}
+
+a:active{
+  color: hotpink;
+}
+
+footer{
+  color: blueviolet;
+  font-size: 2em;
+}
+
+/* ___________________________________________________________________
+Dropdown starts here
+_____________________________________________________________________ */
+
+nav li ul{
+  display: none;
+  position: absolute;
+  margin: 0;
+}
+
+nav li ul li{
+  float: none;
+  margin-right: 400px;
+  margin-top: 16px;
+  padding-right: 30px;
+  transform: translateX(-29px);
+}
+
+nav li ul a{
+  padding: 5px 30px;
+  margin-right: 40px;
+}
+
+nav li:hover ul{
+  display: block;
+}
