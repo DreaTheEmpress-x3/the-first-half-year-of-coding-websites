@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: comic sans ms;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(img/Asexual_Pride_Flag.svg.png);
+}
+
+header{
+    background-color: rgba(22, 203, 203, 0.589);
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 1600px;
+    height: 130px;
+    text-align: center;
+    border-radius: 20px;
+    border: inset white 5px;
+}
+
+article{
+    background-color: rgba(187, 152, 152, 0.429);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 620px;
+    border-radius: 20px;
+}
+
+img{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 490px;
+    width: 490px;
+}
+
+p{
+    margin-left: 10px;
+}
+
+section{
+    background-color: rgba(241, 236, 243, 0.495);
+    width: 580px;
+    border-radius: 20px;
+    font-size: 2em;
+}
+
+aside{
+    background-color: rgba(255, 105, 180, 0.568);
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 1040px;
+    width: 1140px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 2em;
+    border: inset aqua 5px;
+}
+
+ul{
+    text-align: left ;
+}
+
+footer{
+    text-align: center;
+    font-size: 2em;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.header2{
+    background-color: rgba(22, 203, 203, 0.507);
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 1700px;
+    height: 130px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 2em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  width: 1800px;
+  min-height: 1600px;
+  border-radius: 20px;
+  background-color: rgba(137, 43, 226, 0.178);
+}
+
+.floatright {
+  float: right;
+}
+
+.floatleft {
+  float: left;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.clearright {
+  clear: right;
+}
+
+.clearleft {
+  clear: left;
+}
+
+@keyframes rainbow-flash {
+  0% {
+    color: red;
+  }
+  16% {
+    color: orange;
+  }
+  32% {
+    color: yellow;
+  }
+  48% {
+    color: green;
+  }
+  64% {
+    color: blue;
+  }
+  80% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.rainbow-text {
+  font-weight: bold;
+  animation: rainbow-flash 1.5s infinite;
+}
+
+.column {
+  column-gap: 35px;
+  column-count: 3;
+  height: 200px;
+  font-size: 2em;
+}
