@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+section{
+    width: 800px;
+    min-height: 600px;
+    background-color: hotpink;
+    margin: 40px auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.ace{
+    display: none;
+}
+
+.secret{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    section{
+        width: 100%;
+        min-height: 300px;
+        margin: 0px;
+        background-color: aquamarine;
+    }
+
+    .jerma{
+        display: none;
+    }
+
+    .secret{
+        display: none;
+    }
+
+    .ace{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    section{
+        width: 100%;
+        min-height: 380px;
+        margin: 0px;
+        background-color: blue;
+    }
+
+    .jerma{
+        display: none;
+    }
+
+    .secret{
+        display: block;
+    }
+
+    .ace{
+        display: none;
+    }
+
+}
